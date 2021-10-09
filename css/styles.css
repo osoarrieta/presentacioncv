@@ -1,0 +1,198 @@
+html {
+    box-sizing: border-box; }
+  
+  
+body {
+    box-sizing: content-box;
+    margin: 0 auto;
+    background-color:#343a40 !important; }
+  
+a{
+    text-decoration: none !important; }
+
+
+#footer{
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 0.75rem;
+    text-align: center;
+}
+    
+#footer div {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    padding-top: 1rem;
+}
+
+
+.title{
+    color: rgb(128, 255, 0) !important;
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 2rem;
+    padding-top: 7rem;
+}
+
+.title_div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+
+  
+/*------------------------------BARRA DE NAV----------------------------------------*/
+
+#navbarSupportedContent{
+    justify-content: center;
+}
+
+.btn_cv{
+    background-color:rgb(128, 255, 0) !important;;
+    color: black !important;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    margin-right: 1rem;
+}
+
+.btn_cv:hover {background-color:black !important;;
+    color: rgb(128, 255, 0) !important;}
+
+
+.nav-item{
+    color: rgb(128, 255, 0) !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.nav-item:hover{
+    color: rgb(255, 255, 255) !important;
+}
+
+/*------------------------------SOBRE MI----------------------------------------*/
+
+
+.sobremi_title{
+    color: rgb(128, 255, 0) !important;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 7rem;
+    padding-right: 1rem;
+    width: auto;
+}
+
+.sobremi_title span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: #343a40;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(60) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
+.sobremi_p{
+    padding-top: 2rem;
+    color: cornsilk;
+}
+
+/*------------------------------EDUCACION----------------------------------------*/
+
+#educacion{
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    
+}
+
+#educacion h5{
+    color: black;
+    background-color: rgb(128, 255, 0);
+    font-family: 'Oswald', sans-serif;
+    animation: alert 5s infinite;
+}
+
+
+@keyframes alert{
+    from{color: black;
+        background-color: rgb(128, 255, 0);}
+    to {color: rgb(128, 255, 0);
+    background-color: black;}
+
+}
+
+.educacion_title{
+    color: rgb(128, 255, 0) !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.educacion_p{
+    color: cornsilk;
+    text-align: left;
+}
+
+
+.image_cert{
+    width: 1.5rem;
+    height: auto;
+}
+
+
+
+
+
+/*------------------------------EXPERIENCIA--------------------------------------*/
+
+.image_exp{
+    width: 15rem;
+    height: auto;
+    -webkit-box-shadow: 8px 8px 8px -5px #26FF00; 
+    box-shadow: 8px 8px 8px -5px #26FF00;
+    float:left;
+    margin-right: 2rem;
+}
+
+.experiencia_p{
+    color: blanchedalmond;
+    font-family: 'Oxygen', sans-serif;
+    margin-bottom: 10rem;
+}
+
+
+/*------------------------------CONTACTO--------------------------------------*/
+
+.img_contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.img_contacto:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+
+
+
+.dat_contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
